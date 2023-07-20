@@ -90,25 +90,27 @@
     justify-content:space-between;
     height: 95vh;
     background-color: white;
+    width:100%
 
 }
 
 .sign-in-section{
     background-image: url("../images/Group\ 14.png") ;
-   width:500px;
-   padding-left: 120px;
+    background-size: 100%;
+   width:70%;
+   padding-left: 120px ;
    
 }
 .sign-in-section h1{
 color: #0B0223;
 /* text-align: center; */
-font-size: 48px;
+font-size: 40px;
 font-weight: 600;
 text-transform: uppercase;
 margin-top: 100px;
 }
 .sign-in-section span{
-    font-size: 95px;
+    font-size: 80px;
     font-weight: 800;
    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
    background-clip: text;
@@ -153,6 +155,49 @@ margin-top: 100px;
 }
 
 
+.img-container{
+    height:80vh;
+    background-color: #fff9fc;
+
+   display:flex;
+   flex-direction: row-reverse;
+   justify-content: center;
+   align-items: center;
+}
+
+.text-container{
+    text-align: right;
+}
+.text-container h2{
+    font-size: 35px;
+    font-weight: 600;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.text-container p{
+    font-size: 15px;
+    font-style: normal;
+    color: #534C64;
+}
+.group-img img{
+    width:600px;
+}
+.know-more-btn{
+    font-size: 15px;
+    padding:21px 40px;
+    font-style: normal;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.text-container h3{
+    color:  #534C64;
+    font-size: 20px;
+   
+}
 
 
 
@@ -175,23 +220,27 @@ margin-top: 100px;
     .menu-list{
         flex-direction:column;
     }
-
     .banner{
         flex-direction: column;
-        
     }
     .sign-in-section{
-        width:auto;
-        padding-left:5px;
-        padding-bottom: 15px;
+        padding:5px;
+        background-size: 100%;
+       
     }
-    .sign-in-section span{
-              font-size: 90px;
+    .sign-in-btn,.go-rogue-btn {
+        border-radius: 48px;
+        background-color: #ff42a5;
+        color:white;
+        padding: 10px 25px;
+        border:none;
+        font-size: 10px
     }
     .banner-img img{
-       width:350px;
-       margin-top: 50px;
-      
+        width:100%;
+        height:100%;
+        margin-right: 0px;
     }
+    
     
 }
