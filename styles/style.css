@@ -183,7 +183,7 @@ margin-top: 100px;
     color: #534C64;
 }
 .group-img img{
-    width:600px;
+    width:100%;
 }
 .know-more-btn{
     font-size: 15px;
@@ -222,6 +222,7 @@ margin-top: 100px;
     }
     .banner{
         flex-direction: column;
+        height:100%;
     }
     .sign-in-section{
         padding:5px;
@@ -242,5 +243,17 @@ margin-top: 100px;
         margin-right: 0px;
     }
     
+    .img-container{
+        height:100%;
+        width:100%;
+        background-color: #fff9fc;     
+       flex-direction: column;
+       /* justify-content: center;
+       align-items: center; */
+       
+    }
+    .text-container{
+        text-align:center;
+    }
     
 }
