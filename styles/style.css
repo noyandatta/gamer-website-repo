@@ -241,6 +241,52 @@ margin-top: 100px;
     font-weight: 500;
     
 }
+.text-img-container{
+    display:flex;
+    justify-content: center;
+    gap:100px;
+    margin-top:100px;
+}
+.tile-description{
+    margin-top: 150px;
+    text-align: right;
+
+}
+.tile-description h2{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+}
+.tile-description p{
+    color: #534C64;
+    font-size: 13px;
+    font-weight: 400;
+}
+.play-instantly{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+.anniversary-img{
+    width:450px;
+    margin-left: 80px;
+}
+.hi-5-img{
+    width:200px;
+    position:relative; 
+    top:-180px;
+    border-radius: 4px;
+    border:0.1px solid #efd5e9;
+ 
+ 
+}
+.overlape-img-container{
+    display:flex;
+    flex-direction: column;
+}
 
 
 
@@ -290,9 +336,6 @@ margin-top: 100px;
         width:100%;
         background-color: #fff9fc;     
        flex-direction: column;
-       /* justify-content: center;
-       align-items: center; */
-       
     }
     .text-container{
         text-align:center;
@@ -320,6 +363,33 @@ margin-top: 100px;
         margin-left: 1px;
         margin-bottom: 20px;
         
+    }
+    .text-img-container{
+        flex-direction: column;
+    }
+    .anniversary-img{
+        width:150%;
+        margin-left: 0px;
+        position:relative;
+        left:50px;
+    }
+    .hi-5-img{
+        width:60%;
+        position:relative; 
+        top:-80px;
+        left:14px;
+        border-radius: 4px;
+        border:0.1px solid #efd5e9;
+     
+    }
+    .overlape-img-container{
+        width:50%
+    }
+
+    .tile-description{
+        margin-top: 0px;
+        text-align:center;
+    
     }
     
 
