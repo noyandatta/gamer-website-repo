@@ -361,7 +361,7 @@ margin-top: 100px;
          height:auto;
     }
     .gamer-title img{
-        margin-left: 120px;
+        margin-left: 80px;
         
     }
     .gamer-title{
@@ -483,7 +483,8 @@ margin-top: 100px;
         margin:0px;
         padding-top: 50px;
         padding-bottom: 25px;
-        padding-right: 50px;
+        margin-right: 40px;
+
     }
 
     .list-item{
