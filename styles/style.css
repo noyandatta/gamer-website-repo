@@ -277,18 +277,25 @@ margin-top: 100px;
    margin-top: 80px;
    background-color: white;
 }
-.icon-info span{
-    position:relative;
-    top:-13px;
-    font-size: 16px;
-    font-weight: 600;
-}
 .icon-info-border{
     border:1px solid #ff42a5;
 }
 .arcade-games{
     color:#ff42a5;
 }
+
+.icon-info:hover{
+    border:1px solid blue;
+    color:blueviolet;
+}
+.icon-info span{
+    position:relative;
+    top:-13px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
 .icon-container-2{
     height:33vh;
 }
